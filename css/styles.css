@@ -1,3 +1,4 @@
+
 body {
   color: #40514E;
   margin: 0;
@@ -5,13 +6,47 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.boy{
+  border : solid;
+  border-radius: 100%;
+  border-color: #fff;
+  position: absolute;
+  left: 10%;
+  width: 4%;
+}
+.boy:hover{
+  background-color: #FC4F4F;
+}
+.certi-icon{
+  width: 4%;
+  border: solid #fff;
+  border-radius: 100%;
+  position: relative;
+  left: 35%;
+}
+
+.certi-icon:hover{
+  background-color: #FC4F4F;
+}
+.header{
+  background-color: #139487;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-link{
+  position: relative;
+  margin-left: 1100px;
+  font-size: 1.5rem;
+  color: #FFBED8;
+}
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #EAF6F6;
   border-width: 10px;
   width: 5%;
-  margin: 100px auto;
+  margin: 10px auto;
 }
 
 h1 {
@@ -51,6 +86,15 @@ a{
   padding-top: 100px;
 }
 
+.middle-container {
+  padding: 50px 0;
+}
+
+.bottom-container {
+  background-color: #E4F9F5;
+  padding: 50px 0 20px;
+}
+
 .intro {
   width: 30%;
   margin: auto;
@@ -68,6 +112,9 @@ a{
   top: 50px;
 }
 
+.skills{
+  margin-bottom: 10%;
+}
 .skill-row {
   margin: 70px auto;
   width: 50%;
@@ -83,6 +130,7 @@ a{
   width: 200px;
 }
 
+/*Skill pic */
 .web-pic {
   border-radius: 50%;
   width: 200px;
@@ -99,13 +147,25 @@ a{
   margin-left: 30px;
 }
 
-.middle-container {
-  padding: 50px 0;
+.Pro-pic{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
 }
 
-.bottom-container {
-  background-color: #E4F9F5;
-  padding: 50px 0 20px;
+
+.copyright{
+  color: #45b29a;
+  font-style: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 50px auto;
 }
 
 .btn {
@@ -135,24 +195,82 @@ a{
   text-decoration: none;
 }
 
-.copyright{
-  color: #45b29a;
-  font-style: 'Roboto', sans-serif;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.contact-message {
-  width: 30%;
-  margin: 50px auto;
-}
-
 .footer-link:hover {
-  background: #B33030;
-  background-image: -webkit-linear-gradient(top, #B33030, #3498db);
-  background-image: -moz-linear-gradient(top, #B33030, #3498db);
-  background-image: -ms-linear-gradient(top, #B33030, #3498db);
-  background-image: -o-linear-gradient(top, #B33030, #3498db);
-  background-image: linear-gradient(to bottom, #B33030, #3498db);
+  color: #FC4F4F;
   text-decoration: none;
+}
+
+/* Certificate web page */
+.hacker-icon{
+  width: 4%;
+  border: solid #fff;
+  border-radius: 100%;
+  position: relative;
+  left: 35%;
+}
+#cert-h1{
+  padding: 1.5rem;
+}
+
+.left-flag{
+  position: absolute;
+  padding-right: 400px;
+}
+
+.right-flag{
+  padding-left: 400px;
+}
+
+.DSA-badge{
+  background-color: #FFB830;
+  padding: 50px;
+
+}
+
+.Cpic{
+  border-radius: 100%;
+  width: 20%;
+}
+
+.Cbadge{
+  background-color: #FFFA4D;
+  padding: 50px;
+}
+
+.top-certificate{
+  position: relative;
+  padding : 50px;
+  background-color : #FC4F4F;
+}
+.middle-certificate{
+  position: relative;
+  padding : 50px;
+  background-color :  #219F94;
+}
+.middle2-certificate{
+  position: relative;
+  padding : 50px;
+  background-color : #D885A3;
+}
+.bottom-certificate{
+  position: relative;
+  padding : 50px;
+  background-color: #F9D89C;
+}
+.info{
+  color: #fff;
+}
+
+.trophy-pic{
+  width: 200px;
+  height: 200px;
+}
+
+.pic{
+  width: 50%;
+  padding : 5px;
+}
+
+.contact-me{
+  margin-bottom: 40px;
 }
